@@ -5,8 +5,8 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Blog do Alan`,
-    description: `Meu nome é Alan tenho 25 anos, Front-End Develop `,
-    position: `Desenvolvedor Front-End Develop`,
+    description: `Meu nome é Alan tenho 25 anos, moro na zona norte do Rj`,
+    position: ` Aprendiz Front-End Develop`,
     author: `@Alan`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
