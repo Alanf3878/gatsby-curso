@@ -7,6 +7,8 @@ import { Lightbulb as Light } from "@styled-icons/bootstrap/Lightbulb"
 import { Grid3x3Gap as Grid } from "@styled-icons/bootstrap/Grid3x3Gap"
 import { List } from "@styled-icons/bootstrap/List"
 
+
+import getThemeColor from "../../utils/getThemeColor"
 import * as S from "./style"
 
 const MenuBar = () => {
@@ -30,7 +32,7 @@ const MenuBar = () => {
           to="/"
           cover
           direction="left"
-          bg="#16202c"
+          bg={getThemeColor()}
           duration={0.7}
           title="Voltar para Home"
         >
@@ -42,7 +44,7 @@ const MenuBar = () => {
           to="/search"
           cover
           direction="left"
-          bg="#16202c"
+          bg={getThemeColor()}
           duration={0.7}
           title="Pesquisar"
         >

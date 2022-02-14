@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Category } from "styled-icons/boxicons-regular"
 import * as S from "./styled"
+import getThemeColor from "../../utils/getThemeColor"
+
 
 const PostItem = ({
   slug,
@@ -12,7 +14,7 @@ const PostItem = ({
   description,
   background,
 }) => (
-  <S.PostItemLink cover direction="left" bg="#16202c" duration={0.7} to={slug}>
+  <S.PostItemLink cover direction="left" bg={getThemeColor()} duration={0.7} to={slug}>
     <S.PostItemWrapper>
       <S.PostItemTag background={background}>{category}</S.PostItemTag>
       <S.PostItemInfo>
