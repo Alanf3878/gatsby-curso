@@ -13,7 +13,7 @@ display: flex;
 justify-content: center;
 
   ${media.lessThan("large")`
-  top: 50px;
+  
  
   `}
 `
